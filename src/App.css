@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .App-logo {
@@ -35,4 +36,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form {
+  margin-top: px;
+  display: block;
+  text-align: left;
+  margin-left: 10px;
+  border: 1px double rgb(212, 212, 212);
+}
+
+.inp {
+  margin-top: 10px;
+  margin-left: 1px;
+  height: 50px;
+  width: 390px;
+}
+
+.label {
+  display: inline;
+}
+
+.but {
+  background-color: rgb(57, 88, 190);
+  border: white;
+  color: white;
+  /* margin-top: 5px; */
+  margin-right: 5px;
+  padding: 5px 15px 5px 15px;
+  display: inline;
+  text-align: center;
+  /* margin-left: auto; */
+  width: 85px;
+  font-size: medium;
+}
+
+.butCros {
+  display: inline;
+  background-color: rgb(255, 255, 255);
+  border: 0px double rgb(212, 212, 212);
+  margin-left: 75%;
+}
+
+.wrap-create {
+  width: 400px;
+  background-color: whitesmoke;
+  padding: 5px 0px 5px 0px;
+  margin-left: 10px;
+  text-align: right;
+}
+
+.wrap-but {
+  width: 399px;
+  background-color: whitesmoke;
+  padding: 5px 0px 5px 0px;
+}
+
+.wrap {
+  width: 410px;
+  display: block;
+  margin-left: 10px;
+}
+
+.note {
+  display: inline;
+  margin-left: 10px;
+  width: 400px;
+}
+
+p {
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  border: 1px double rgb(212, 212, 212);
+  margin: 0px 0px 20px 0px;
+}
+
+.cros {
+  display: inline;
+  background-color: white;
+  border: white;
 }
